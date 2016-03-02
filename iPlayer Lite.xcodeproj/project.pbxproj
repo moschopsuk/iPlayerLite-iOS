@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6603A41C86FE9600ED7B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603A31C86FE9600ED7B80 /* main.m */; };
+		DD6603A71C86FE9600ED7B80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603A61C86FE9600ED7B80 /* AppDelegate.m */; };
+		DD6603AA1C86FE9600ED7B80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603A91C86FE9600ED7B80 /* ViewController.m */; };
+		DD6603AD1C86FE9600ED7B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6603AB1C86FE9600ED7B80 /* Main.storyboard */; };
+		DD6603AF1C86FE9600ED7B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6603AE1C86FE9600ED7B80 /* Assets.xcassets */; };
+		DD6603B21C86FE9600ED7B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6603B01C86FE9600ED7B80 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD66039F1C86FE9600ED7B80 /* iPlayer Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPlayer Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6603A31C86FE9600ED7B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD6603A51C86FE9600ED7B80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD6603A61C86FE9600ED7B80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD6603A81C86FE9600ED7B80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD6603A91C86FE9600ED7B80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD6603AC1C86FE9600ED7B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6603AE1C86FE9600ED7B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6603B11C86FE9600ED7B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6603B31C86FE9600ED7B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD66039C1C86FE9600ED7B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6603961C86FE9600ED7B80 = {
+			isa = PBXGroup;
+			children = (
+				DD6603A11C86FE9600ED7B80 /* iPlayer Lite */,
+				DD6603A01C86FE9600ED7B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6603A01C86FE9600ED7B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD66039F1C86FE9600ED7B80 /* iPlayer Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6603A11C86FE9600ED7B80 /* iPlayer Lite */ = {
+			isa = PBXGroup;
+			children = (
+				DD6603A51C86FE9600ED7B80 /* AppDelegate.h */,
+				DD6603A61C86FE9600ED7B80 /* AppDelegate.m */,
+				DD6603A81C86FE9600ED7B80 /* ViewController.h */,
+				DD6603A91C86FE9600ED7B80 /* ViewController.m */,
+				DD6603AB1C86FE9600ED7B80 /* Main.storyboard */,
+				DD6603AE1C86FE9600ED7B80 /* Assets.xcassets */,
+				DD6603B01C86FE9600ED7B80 /* LaunchScreen.storyboard */,
+				DD6603B31C86FE9600ED7B80 /* Info.plist */,
+				DD6603A21C86FE9600ED7B80 /* Supporting Files */,
+			);
+			path = "iPlayer Lite";
+			sourceTree = "<group>";
+		};
+		DD6603A21C86FE9600ED7B80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD6603A31C86FE9600ED7B80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD66039E1C86FE9600ED7B80 /* iPlayer Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6603B61C86FE9600ED7B80 /* Build configuration list for PBXNativeTarget "iPlayer Lite" */;
+			buildPhases = (
+				DD66039B1C86FE9600ED7B80 /* Sources */,
+				DD66039C1C86FE9600ED7B80 /* Frameworks */,
+				DD66039D1C86FE9600ED7B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPlayer Lite";
+			productName = "iPlayer Lite";
+			productReference = DD66039F1C86FE9600ED7B80 /* iPlayer Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6603971C86FE9600ED7B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BBC;
+				TargetAttributes = {
+					DD66039E1C86FE9600ED7B80 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3PDJFXK9S6;
+					};
+				};
+			};
+			buildConfigurationList = DD66039A1C86FE9600ED7B80 /* Build configuration list for PBXProject "iPlayer Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6603961C86FE9600ED7B80;
+			productRefGroup = DD6603A01C86FE9600ED7B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD66039E1C86FE9600ED7B80 /* iPlayer Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD66039D1C86FE9600ED7B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6603B21C86FE9600ED7B80 /* LaunchScreen.storyboard in Resources */,
+				DD6603AF1C86FE9600ED7B80 /* Assets.xcassets in Resources */,
+				DD6603AD1C86FE9600ED7B80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD66039B1C86FE9600ED7B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6603AA1C86FE9600ED7B80 /* ViewController.m in Sources */,
+				DD6603A71C86FE9600ED7B80 /* AppDelegate.m in Sources */,
+				DD6603A41C86FE9600ED7B80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD6603AB1C86FE9600ED7B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6603AC1C86FE9600ED7B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6603B01C86FE9600ED7B80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6603B11C86FE9600ED7B80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6603B41C86FE9600ED7B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6603B51C86FE9600ED7B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6603B71C86FE9600ED7B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iPlayer Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moscrop.iPlayer-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD6603B81C86FE9600ED7B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iPlayer Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moscrop.iPlayer-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD66039A1C86FE9600ED7B80 /* Build configuration list for PBXProject "iPlayer Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6603B41C86FE9600ED7B80 /* Debug */,
+				DD6603B51C86FE9600ED7B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6603B61C86FE9600ED7B80 /* Build configuration list for PBXNativeTarget "iPlayer Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6603B71C86FE9600ED7B80 /* Debug */,
+				DD6603B81C86FE9600ED7B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6603971C86FE9600ED7B80 /* Project object */;
+}
