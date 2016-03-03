@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDE6DFDBC662576DF0B45EFD /* libPods-iPlayer Lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552464E3E8B4A92F68BAF1A5 /* libPods-iPlayer Lite.a */; };
+		DD4C78E31C873218001D4E28 /* HighlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4C78E21C873218001D4E28 /* HighlightsViewController.m */; };
+		DD4C78E61C874187001D4E28 /* MediaCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4C78E51C874187001D4E28 /* MediaCellView.m */; };
+		DD4E34921C885239005D8C4D /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4E34911C885239005D8C4D /* MediaViewController.m */; };
 		DD6603A41C86FE9600ED7B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603A31C86FE9600ED7B80 /* main.m */; };
 		DD6603A71C86FE9600ED7B80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603A61C86FE9600ED7B80 /* AppDelegate.m */; };
-		DD6603AA1C86FE9600ED7B80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603A91C86FE9600ED7B80 /* ViewController.m */; };
 		DD6603AD1C86FE9600ED7B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6603AB1C86FE9600ED7B80 /* Main.storyboard */; };
 		DD6603AF1C86FE9600ED7B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6603AE1C86FE9600ED7B80 /* Assets.xcassets */; };
-		DD6603B21C86FE9600ED7B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6603B01C86FE9600ED7B80 /* LaunchScreen.storyboard */; };
+		DD6603BC1C87049C00ED7B80 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603BB1C87049C00ED7B80 /* CategoriesViewController.m */; };
+		DD6603C61C870CEE00ED7B80 /* iPlayerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6603C51C870CEE00ED7B80 /* iPlayerCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B25B475EAFCACCFD9AB0D09 /* Pods-iPlayer Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPlayer Lite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPlayer Lite/Pods-iPlayer Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		552464E3E8B4A92F68BAF1A5 /* libPods-iPlayer Lite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPlayer Lite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646D31960AEF55E345ABFAC5 /* Pods-iPlayer Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPlayer Lite.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPlayer Lite/Pods-iPlayer Lite.release.xcconfig"; sourceTree = "<group>"; };
+		DD4C78E11C873218001D4E28 /* HighlightsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightsViewController.h; sourceTree = "<group>"; };
+		DD4C78E21C873218001D4E28 /* HighlightsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightsViewController.m; sourceTree = "<group>"; };
+		DD4C78E41C874187001D4E28 /* MediaCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCellView.h; sourceTree = "<group>"; };
+		DD4C78E51C874187001D4E28 /* MediaCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCellView.m; sourceTree = "<group>"; };
+		DD4E34901C885239005D8C4D /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		DD4E34911C885239005D8C4D /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
 		DD66039F1C86FE9600ED7B80 /* iPlayer Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPlayer Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6603A31C86FE9600ED7B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD6603A51C86FE9600ED7B80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD6603A61C86FE9600ED7B80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD6603A81C86FE9600ED7B80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD6603A91C86FE9600ED7B80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD6603AC1C86FE9600ED7B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD6603AE1C86FE9600ED7B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD6603B11C86FE9600ED7B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD6603B31C86FE9600ED7B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6603BA1C87049C00ED7B80 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		DD6603BB1C87049C00ED7B80 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		DD6603C41C870CEE00ED7B80 /* iPlayerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPlayerCategory.h; sourceTree = "<group>"; };
+		DD6603C51C870CEE00ED7B80 /* iPlayerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPlayerCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE6DFDBC662576DF0B45EFD /* libPods-iPlayer Lite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3F654B99147829C0C87F56E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B25B475EAFCACCFD9AB0D09 /* Pods-iPlayer Lite.debug.xcconfig */,
+				646D31960AEF55E345ABFAC5 /* Pods-iPlayer Lite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD4C78E01C8731BC001D4E28 /* Highlights */ = {
+			isa = PBXGroup;
+			children = (
+				DD4C78E11C873218001D4E28 /* HighlightsViewController.h */,
+				DD4C78E21C873218001D4E28 /* HighlightsViewController.m */,
+				DD4C78E41C874187001D4E28 /* MediaCellView.h */,
+				DD4C78E51C874187001D4E28 /* MediaCellView.m */,
+			);
+			name = Highlights;
+			sourceTree = "<group>";
+		};
+		DD4E348F1C885215005D8C4D /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				DD4E34901C885239005D8C4D /* MediaViewController.h */,
+				DD4E34911C885239005D8C4D /* MediaViewController.m */,
+			);
+			name = Watch;
+			sourceTree = "<group>";
+		};
 		DD6603961C86FE9600ED7B80 = {
 			isa = PBXGroup;
 			children = (
 				DD6603A11C86FE9600ED7B80 /* iPlayer Lite */,
 				DD6603A01C86FE9600ED7B80 /* Products */,
+				B3F654B99147829C0C87F56E /* Pods */,
+				E92E803D416117FE9BD7AB95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +104,14 @@
 		DD6603A11C86FE9600ED7B80 /* iPlayer Lite */ = {
 			isa = PBXGroup;
 			children = (
+				DD4E348F1C885215005D8C4D /* Watch */,
+				DD4C78E01C8731BC001D4E28 /* Highlights */,
+				DD6603BD1C8704BA00ED7B80 /* Models */,
+				DD6603B91C87045700ED7B80 /* Categories */,
 				DD6603A51C86FE9600ED7B80 /* AppDelegate.h */,
 				DD6603A61C86FE9600ED7B80 /* AppDelegate.m */,
-				DD6603A81C86FE9600ED7B80 /* ViewController.h */,
-				DD6603A91C86FE9600ED7B80 /* ViewController.m */,
 				DD6603AB1C86FE9600ED7B80 /* Main.storyboard */,
 				DD6603AE1C86FE9600ED7B80 /* Assets.xcassets */,
-				DD6603B01C86FE9600ED7B80 /* LaunchScreen.storyboard */,
 				DD6603B31C86FE9600ED7B80 /* Info.plist */,
 				DD6603A21C86FE9600ED7B80 /* Supporting Files */,
 			);
@@ -79,6 +126,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DD6603B91C87045700ED7B80 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DD6603BA1C87049C00ED7B80 /* CategoriesViewController.h */,
+				DD6603BB1C87049C00ED7B80 /* CategoriesViewController.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		DD6603BD1C8704BA00ED7B80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD6603C41C870CEE00ED7B80 /* iPlayerCategory.h */,
+				DD6603C51C870CEE00ED7B80 /* iPlayerCategory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E92E803D416117FE9BD7AB95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				552464E3E8B4A92F68BAF1A5 /* libPods-iPlayer Lite.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD6603B61C86FE9600ED7B80 /* Build configuration list for PBXNativeTarget "iPlayer Lite" */;
 			buildPhases = (
+				11E93A015A48BB49D5C43D19 /* Check Pods Manifest.lock */,
 				DD66039B1C86FE9600ED7B80 /* Sources */,
 				DD66039C1C86FE9600ED7B80 /* Frameworks */,
 				DD66039D1C86FE9600ED7B80 /* Resources */,
+				5023ED346763853F1540BBFA /* Embed Pods Frameworks */,
+				C739B9BB1578FBB8137919E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6603B21C86FE9600ED7B80 /* LaunchScreen.storyboard in Resources */,
 				DD6603AF1C86FE9600ED7B80 /* Assets.xcassets in Resources */,
 				DD6603AD1C86FE9600ED7B80 /* Main.storyboard in Resources */,
 			);
@@ -145,13 +220,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11E93A015A48BB49D5C43D19 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5023ED346763853F1540BBFA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPlayer Lite/Pods-iPlayer Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C739B9BB1578FBB8137919E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPlayer Lite/Pods-iPlayer Lite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD66039B1C86FE9600ED7B80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6603AA1C86FE9600ED7B80 /* ViewController.m in Sources */,
+				DD4C78E31C873218001D4E28 /* HighlightsViewController.m in Sources */,
+				DD4C78E61C874187001D4E28 /* MediaCellView.m in Sources */,
+				DD6603C61C870CEE00ED7B80 /* iPlayerCategory.m in Sources */,
+				DD4E34921C885239005D8C4D /* MediaViewController.m in Sources */,
 				DD6603A71C86FE9600ED7B80 /* AppDelegate.m in Sources */,
+				DD6603BC1C87049C00ED7B80 /* CategoriesViewController.m in Sources */,
 				DD6603A41C86FE9600ED7B80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,14 +293,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
-		};
-		DD6603B01C86FE9600ED7B80 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD6603B11C86FE9600ED7B80 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 /* End PBXVariantGroup section */
 
@@ -262,8 +382,10 @@
 		};
 		DD6603B71C86FE9600ED7B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B25B475EAFCACCFD9AB0D09 /* Pods-iPlayer Lite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "iPlayer Lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moscrop.iPlayer-Lite";
@@ -273,8 +395,10 @@
 		};
 		DD6603B81C86FE9600ED7B80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646D31960AEF55E345ABFAC5 /* Pods-iPlayer Lite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "iPlayer Lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moscrop.iPlayer-Lite";
@@ -301,6 +425,7 @@
 				DD6603B81C86FE9600ED7B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
